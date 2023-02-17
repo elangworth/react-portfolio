@@ -70,7 +70,7 @@ none
 
 <a name="Link"></a>
 # Link to Live Site
-https://drive.google.com/file/d/1AHYFcyNvhMuGUo9hxq8_JUUL3JWOk-Wc/view
+https://elangworth.github.io/react-portfolio/
 
 <a name="Screenshot"></a>
 # Screenshot
