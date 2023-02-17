@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+## React-Portfolio
+![GitHub](https://img.shields.io/github/license/elangworth/react-portfolio?logo=GitHub&logoColor=blue)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Table of Contents
+* [Description](#Description)
+* [Install](#Install)
+* [Usage](#Usage)
+* [License](#License)
+* [Contribute](#Contribute)
+* [Tests](#Tests)
+* [Contact](#Contact)
+* [Link](#Link)
+* [Screenshot] (#Screenshot)
 
-## Available Scripts
+<a name="Description"></a>
+## Description
+This is my first timing using react. It was fun and mostly easy to use once I got the hang of it. I was able to refactor the code I used in the second challenge to meet the expectations of this challenge. I created a clean, simple looking portfolio page and it is deployed to github pages.
 
-In the project directory, you can run:
+<a name="Install"></a>
+## Install
+1. Download source code
 
-### `npm start`
+2. Update environment variables: .env
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Install dependencies npm install
+  * "@formspree/react": "^2.4.1",
+  * "@testing-library/jest-dom": "^5.16.4",
+  *  "@testing-library/react": "^11.1.0",
+  * "@testing-library/user-event": "^13.5.0",
+  *  "axios": "^1.3.2",
+  *  "dotenv": "^16.0.3",
+  *  "react": "17.0.2",
+  *  "react-dom": "17.0.2",
+  *  "react-router-dom": "^6.3.0",
+  *  "react-scripts": "5.0.1",
+  *  "web-vitals": "^2.1.4",
+  *  "webpack": "^5.75.0"
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Run application npm start
 
-### `npm test`
+Note:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+if you observe the connection error, check the version of node
+connection details should be updated:
+rename .env.EXAMPLE to .env
+Update user-specific data: { host: "localhost", user: "root", password: "", ... }
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a name="Usage"></a>
+## Usage
+My project created a simple portfolio page where users can view the other main projects I have worked on.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a name="License"></a>
+## License
+MIT
 
-### `npm run eject`
+<a name="Contribute"></a>
+## Contribute
+none
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<a name="Tests"></a>
+## Tests
+none    
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a name="Contact"></a>
+# Contact 
+* [GitHub : elangworth](https://github.com/elangworth)
+* Email :e24murph@gmail.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<a name="Link"></a>
+# Link to Live Site
+https://drive.google.com/file/d/1AHYFcyNvhMuGUo9hxq8_JUUL3JWOk-Wc/view
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<a name="Screenshot"></a>
+# Screenshot
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="756" alt="Screen Shot 2023-02-17 at 9 26 13 AM" src="https://user-images.githubusercontent.com/32778860/219730687-f10f6ea0-af03-4bd7-973e-68c121b04ed6.png">
