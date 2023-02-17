@@ -1,3 +1,6 @@
+import { React } from "react";
+
+
 function Resume() {
     return (
       <div className="columns">
@@ -7,8 +10,8 @@ function Resume() {
   
           <a
             className="button is-primary"
-            href="ResumeHolder.pdf"
-            target="_blank" rel="noreferrer"
+            href="/EmilyLangworthResume.pdf"
+            download
           >
             <span className="icon">
               <i className="fas fa-download"></i>

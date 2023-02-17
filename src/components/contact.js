@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 import { validateEmail } from '../utils/helpers';
-import About from './about';
-require('dotenv').config()
 
-function Contact() {
+export default function Contact() {
   const [state, handleSubmit] = useForm(process.env.REACT_APP_FORM_ID);
 
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -15,11 +13,10 @@ function Contact() {
   if (state.succeeded) {
     return (
       <div>
-        <p>Thanks for contacting me.</p>
-        <button className="button is-medium is-primary is-half m-6" onClick={About}>Back to About</button>
+        <p className='has-text-centered'>Thanks for contacting me.</p>
       </div>
     );
-}
+  };
 
   const handleChange = (e) => {
     if (e.target.name === 'email') {
@@ -68,6 +65,4 @@ function Contact() {
       </form>
     </div>
   );
-}
-
-export default Contact;
+};

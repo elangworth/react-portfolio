@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Nav from "./nav.js";
 import About from "./about";
 import Portfolio from "./Portfolio.js";
-import Contact from "./footer";
+import Contact from "./contact";
 import Resume from "./resume";
 
 function Header() {
@@ -13,7 +13,7 @@ function Header() {
       switch (currentPage) {
         case "About":
           return <About />;
-        case "My Work":
+        case "Portfolio":
           return <Portfolio />;
         case "Contact":
           return <Contact />;
