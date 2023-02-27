@@ -1,9 +1,14 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #c0e0e0;
+  min-height: 100%;
 }
 
 code {
@@ -63,7 +68,20 @@ a:hover{
   color: #ffffff;
 }
 
+footer {
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #2060a0;
+  width: 100%;
+  align-items: center;
+  color: #ffffff;
+}
 
+.my-color {
+  color: #ffffff;
+}
 
 @media only screen and (max-width: 1024px) {
     main {

@@ -41,17 +41,6 @@ p {
     color: #ffffff;
 }
 
-footer {
-    padding: 20px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    background-color: #2060a0;
-    width: 100%;
-    align-items: center;
-    color: #ffffff;
-}
-
 .header h1 {
     font-size: 48px;   
 } 
@@ -164,15 +153,14 @@ section article figure figcaption:hover {
 /*these blocks style the footer*/
 
 footer {
-    /*position: fixed;
+    padding: 20px;
+    position: fixed;
     left: 0;
-    bottom: 0;*/
+    bottom: 0;
+    background-color: #2060a0;
     width: 100%;
-}
-
-footer h2 {
-    display: inline-block;
-    font-size: 40px;
+    align-items: center;
+    color: #ffffff;
 }
 
 footer nav ul li {
