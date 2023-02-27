@@ -10,7 +10,7 @@ function Resume() {
   
           <a
             className="button is-primary"
-            href="/EmilyLangworthResume.pdf"
+            href="assets/EmilyLangworthResume.pdf"
             download
           >
             <span className="icon">

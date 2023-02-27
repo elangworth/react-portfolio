@@ -1,12 +1,11 @@
 import React from "react";
 
-
 function About(){
     return (
         <section id="first-section-about">
                 <h2 id="about-me" className="content is-large">About Me</h2>
                 <article id="about-container">
-                    <img className="my-pic" src='/images/emily.png' alt="Emily and her son" id="emily"/> 
+                    <img className="my-pic" src='assets/emily.png' alt="Emily and her son" id="emily"/> 
                     <p id="blurb-about-me" className="content">
                     I am at the stage in my life where I am re-entering the work force. I took 6 years off to raise my two young boys.
                     I want to learn how to do something new. I chose to participate in this bootcamp so I can gain the skills needed to
