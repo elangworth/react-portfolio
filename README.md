@@ -10,7 +10,7 @@
 * [Tests](#Tests)
 * [Contact](#Contact)
 * [Link](#Link)
-* [Screenshot] (#Screenshot)
+* [Screenshot](#Screenshot)
 
 <a name="Description"></a>
 ## Description
