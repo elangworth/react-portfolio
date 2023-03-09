@@ -1,5 +1,5 @@
 import { React } from "react";
-
+import resume from "../assets/EmilyLangworthResume.pdf";
 
 function Resume() {
     return (
@@ -10,7 +10,7 @@ function Resume() {
   
           <a
             className="button is-primary"
-            href="assets/EmilyLangworthResume.pdf"
+            href={resume}
             download
           >
             <span className="icon">

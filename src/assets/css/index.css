@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #c0e0e0;
+  min-height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar, .navbar-brand {
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: #c0e0e0;
+}
+
+div.navbar-brand {
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+
+.navbar .navbar-brand .navbar-item,
+.navbar .navbar-brand .navbar-link {
+  display: inline-block;
+}
+
+main {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 30em;
+  margin-right: 30em;
+}
+
+.my-pic {
+	clip-path: circle();
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.label {
+  text-align: left;
+}
+
+/*ensures links have no line under them*/
+a:link {
+  color: #ffffff;
+}
+
+a:hover{
+  color: #ffffff;
+}
+
+.header {
+  background-color: #2060a0;
+  width: 100%;
+  color: #ffffff;
+}
+
+footer {
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #2060a0;
+  width: 100%;
+  align-items: center;
+  color: #ffffff;
+}
+
+footer nav ul li a {
+  color: #ffffff;
+}
+
+.my-color {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+    main {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+}
+
+

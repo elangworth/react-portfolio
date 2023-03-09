@@ -24,6 +24,13 @@ const project = [
         image: "images/Horiseon.png",
         description: "This project demonstrates the proper use of semantic HTML tags. The HTML follows a logical structure. All of the images have the appropriate alt tags.",
         repo: "https://github.com/elangworth/horiseon-search-engine-optimimization"
+    },
+    {
+        id: 3,
+        title: "LeadStack",
+        image: "images/LeadStack.png",
+        description: "This project allows sales people to easily communicate with their contacts through email and sms",
+        repo: "https://github.com/isayahdurst/leadstack"
     }
 ];
 
