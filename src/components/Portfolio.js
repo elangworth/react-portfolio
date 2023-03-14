@@ -30,7 +30,8 @@ const project = [
         title: "LeadStack",
         image: "images/LeadStack.png",
         description: "This project allows sales people to easily communicate with their contacts through email and sms",
-        repo: "https://github.com/isayahdurst/leadstack"
+        repo: "https://github.com/isayahdurst/leadstack",
+        live: "https://lead-stack.herokuapp.com/"
     }
 ];
 
