@@ -26,17 +26,15 @@ function Project(props){
                                 <div className="content has-text-left">
                                     {project.description}
                                 </div>
-                                <br/>
-                                <div className="card">
-                                    <footer className="card-footer">
-                                        <a href={project.repo} className="card-footer-item" target="_blank" rel="norefferer">
-                                            Repository
-                                        </a>
-                                        <br/>
-                                        <a href={project.live} className="card-footer-item" target="_blank" rel="norefferer">
-                                            Live site
-                                        </a>
-                                    </footer>
+                                <div>
+                                    <a href={project.repo} target="_blank" rel="norefferer">
+                                    Repository
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href={project.live} target="_blank" rel="norefferer">
+                                    Live Site
+                                    </a>
                                 </div>
                             </div>
                         </div>
