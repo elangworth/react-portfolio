@@ -1,7 +1,7 @@
 ## React-Portfolio
 ![GitHub](https://img.shields.io/github/license/elangworth/react-portfolio?logo=GitHub&logoColor=blue)
 
-##Table of Contents
+## Table of Contents
 * [Description](#Description)
 * [Install](#Install)
 * [Usage](#Usage)
