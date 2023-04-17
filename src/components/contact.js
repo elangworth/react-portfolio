@@ -42,6 +42,7 @@ export default function Contact() {
   return (
     <div>
       <p className="content is-medium">Contact Me</p>
+      <p className='content is-medium'>e24murph@gmail.com</p>
       <hr />
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className="field">
