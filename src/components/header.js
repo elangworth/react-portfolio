@@ -37,7 +37,7 @@ function Header() {
           handlePageChange = {handlePageChange}
           />
         <main>
-          <div>{renderPage(currentPage)}</div>
+          <div id="tests">{renderPage(currentPage)}</div>
         </main>
       </div>
   );

@@ -26,9 +26,12 @@ function Project(props){
                                 <div className="content has-text-left">
                                     {project.description}
                                 </div>
+                                <div className="content has-text-left">
+                                    <b>Technical Skills Used:</b> {project.skills}
+                                </div>
                                 <div>
                                     <a href={project.repo} target="_blank" rel="norefferer">
-                                    Repository
+                                    Github Repository
                                     </a>
                                 </div>
                                 <div>

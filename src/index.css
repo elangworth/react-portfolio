@@ -67,6 +67,11 @@ html {
     width: 100%;
     color: #ffffff;
   }
+
+  .clear { 
+    clear: both; 
+    height: 100px; 
+  }
   
   footer {
     padding: 20px;

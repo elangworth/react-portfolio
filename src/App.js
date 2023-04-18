@@ -6,6 +6,7 @@ import Header from "./components/header.js";
 export default function App() {
   return <div>
           <Header />
+          <div class="clear"></div>
           <Footer />    
       </div>;
 };
