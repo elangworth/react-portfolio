@@ -53,9 +53,8 @@ html {
     text-align: left;
   }
   
-  /*ensures links have no line under them*/
   a:link {
-    color: #ffffff;
+    color: #2060a0;
   }
   
   a:hover{
@@ -70,7 +69,7 @@ html {
 
   .clear { 
     clear: both; 
-    height: 100px; 
+    height: 1000px; 
   }
   
   footer {
