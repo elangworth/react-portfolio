@@ -30,12 +30,12 @@ function Project(props){
                                     <b>Technical Skills Used:</b> {project.skills}
                                 </div>
                                 <div>
-                                    <a href={project.repo} target="_blank" rel="norefferer">
+                                    <a href={project.repo} className="card-link" target="_blank" rel="norefferer">
                                     Github Repository
                                     </a>
                                 </div>
                                 <div>
-                                    <a href={project.live} target="_blank" rel="norefferer">
+                                    <a href={project.live} className="card-link" target="_blank" rel="norefferer">
                                     Live Site
                                     </a>
                                 </div>

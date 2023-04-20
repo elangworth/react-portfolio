@@ -53,8 +53,12 @@ html {
     text-align: left;
   }
   
+  .card-link {
+    color:#2060a0;
+  }
+
   a:link {
-    color: #2060a0;
+    color: #ffffff;
   }
   
   a:hover{
